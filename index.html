@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biyo Stephane — Développeur · Marketing Digital · Design</title>
+<meta name="description" content="Portfolio de Biyo Stephane : développement produit, marketing digital et design graphique, illustrés par le projet Searcher Connector.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">BIYO <span>STEPHANE</span></div>
+    <div class="navlinks">
+      <a href="#dev">Développement</a>
+      <a href="#marketing">Marketing</a>
+      <a href="#design">Design</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero wrap">
+  <div class="eyebrow">PORTFOLIO</div>
+  <h1>Je conçois, je code<br>et je fais grandir<br>des produits <em>digitaux</em>.</h1>
+  <p>Développeur full-stack, praticien du marketing digital et créateur d'identités visuelles. Ce portfolio s'appuie sur <strong>Searcher Connector</strong>, un agent SaaS propulsé par l'IA que j'ai conçu, développé et positionné de A à Z.</p>
+  <div class="pillrow">
+    <span class="pill">NEXT.JS / TYPESCRIPT</span>
+    <span class="pill">IA & SAAS</span>
+    <span class="pill">GO-TO-MARKET</span>
+    <span class="pill">IDENTITÉ VISUELLE</span>
+  </div>
+</section>
+
+<!-- DEV -->
+<section class="block" id="dev">
+  <div class="wrap">
+    <div class="tag">01 — DÉVELOPPEMENT</div>
+    <h2 class="title">Searcher Connector</h2>
+    <p class="lead">Une plateforme SaaS qui unifie recherche d'emploi, missions freelance et mise en relation avec des investisseurs autour d'un agent IA actif 24/7. Conçue et développée en solo, du schéma de base de données jusqu'au déploiement.</p>
+
+    <div class="card">
+      <h3>Stack technique</h3>
+      <p>Frontend Next.js 14 / React / TypeScript / Tailwind, backend via routes API Next.js et workers Node dédiés (files d'attente BullMQ + Redis), base de données Supabase (PostgreSQL), paiements Stripe, emailing SendGrid. Intégrations IA multi-fournisseurs (Anthropic, Google Gemini, Groq) pour le scoring d'opportunités, la vérification de profils et l'assistant conversationnel du produit.</p>
+      <div class="badges">
+        <span class="badge">Next.js 14</span>
+        <span class="badge">TypeScript</span>
+        <span class="badge">Supabase / PostgreSQL</span>
+        <span class="badge">Stripe</span>
+        <span class="badge">BullMQ + Redis</span>
+        <span class="badge">Tailwind CSS</span>
+        <span class="badge">i18next (multi-langue)</span>
+        <span class="badge">Vitest + Playwright (tests)</span>
+      </div>
+      <p>Suite de tests unitaires et end-to-end (Vitest, Playwright), monitoring continu (Checkly) et pipeline CI/CD via GitHub Actions.</p>
+      <a class="linkbtn" href="https://github.com/biyostephane26-gif/searcherconnector" target="_blank" rel="noopener">Voir le dépôt GitHub →</a>
+    </div>
+
+    <div class="gallery">
+      <figure><img src="landing.png" alt="Page d'accueil Searcher Connector"><figcaption>Landing page</figcaption></figure>
+      <figure><img src="dashboard.png" alt="Tableau de bord utilisateur"><figcaption>Dashboard agent IA</figcaption></figure>
+      <figure><img src="pricing.png" alt="Page tarifs"><figcaption>Page tarifs</figcaption></figure>
+      <figure><img src="talent-search.png" alt="Recherche de talents"><figcaption>Recherche de talents</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- MARKETING -->
+<section class="block" id="marketing">
+  <div class="wrap">
+    <div class="tag">02 — MARKETING DIGITAL</div>
+    <h2 class="title">Positionnement & mise sur le marché</h2>
+    <p class="lead">Au-delà du code : définir qui est le produit, pour qui, et comment le dire. Travail de positionnement, de messaging et de contenus de lancement pour Searcher Connector.</p>
+
+    <div class="card">
+      <h3>Étude de cas — Positionnement</h3>
+      <p><strong>Problème :</strong> les plateformes d'emploi et de freelance existantes sont passives — l'utilisateur doit chercher, filtrer et postuler lui-même, plateforme par plateforme.</p>
+      <p style="margin-top:10px"><strong>Angle choisi :</strong> repositionner le produit non pas comme "un job board de plus" mais comme un <em>agent autonome</em> qui agit à la place de l'utilisateur — une promesse simple et différenciante ("travaille pour toi pendant que tu dors").</p>
+      <p style="margin-top:10px"><strong>Segmentation :</strong> quatre personas distincts (candidats, freelances, recruteurs, investisseurs), chacun avec son propre parcours et ses propres arguments de conversion, plutôt qu'un message générique unique.</p>
+    </div>
+
+    <div class="sample">
+      <div class="kicker">EXEMPLE — ACCROCHE LANDING PAGE</div>
+      <div class="copy">"Pendant que tu dors, ton prochain job te cherche." <strong>Searcher scanne +500 plateformes en continu</strong> et postule pour toi aux meilleures opportunités — zéro effort manuel.</div>
+    </div>
+
+    <div class="sample">
+      <div class="kicker">EXEMPLE — POST RÉSEAUX SOCIAUX</div>
+      <div class="copy">🔎 <strong>947 opportunités</strong> détectées cette semaine, 0 minute passée à chercher. C'est la différence entre chercher un emploi… et avoir un agent qui le fait pour toi. #SearcherConnector #IA #Emploi</div>
+    </div>
+
+    <div class="sample">
+      <div class="kicker">EXEMPLE — SÉQUENCE EMAIL D'ONBOARDING</div>
+      <div class="copy"><strong>Objet :</strong> Ton agent est actif — voici ce qu'il a déjà trouvé<br>Bienvenue à bord. Ton agent Searcher scanne déjà le marché en continu. Tu n'as rien à faire : dès qu'une opportunité correspond à ton profil, on te notifie. En attendant, complète ton profil pour faire passer ton taux de match de 76% à 95%.</div>
+    </div>
+  </div>
+</section>
+
+<!-- DESIGN -->
+<section class="block" id="design">
+  <div class="wrap">
+    <div class="tag">03 — DESIGN GRAPHIQUE</div>
+    <h2 class="title">Identité visuelle</h2>
+    <p class="lead">Système visuel noir & or construit autour du produit : palette, typographie et déclinaisons pour les réseaux sociaux, reconstitué ici pour ce portfolio.</p>
+
+    <div class="designgrid">
+      <div class="designcard full">
+        <img src="style-guide.svg" alt="Mini guide de marque">
+        <div class="cap">Mini guide de marque — palette, typographie, usage du logo</div>
+      </div>
+      <div class="designcard">
+        <img src="social-post.svg" alt="Visuel réseaux sociaux au format carré">
+        <div class="cap">Visuel de lancement — format carré (Instagram/LinkedIn)</div>
+      </div>
+      <div class="designcard">
+        <img src="linkedin-banner.svg" alt="Bannière LinkedIn personnelle">
+        <div class="cap">Bannière LinkedIn personnelle</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footlinks">
+      <a href="mailto:contact@genedosys.com">contact@genedosys.com</a>
+      <a href="https://github.com/biyostephane26-gif" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div>© 2026 Biyo Stephane — Portfolio construit avec le projet Searcher Connector.</div>
+  </div>
+</footer>
+
+</body>
+</html>

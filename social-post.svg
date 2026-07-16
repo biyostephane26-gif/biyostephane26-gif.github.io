@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <radialGradient id="glow" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M 54 0 L 0 0 0 54" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#0A0A0A"/>
+  <rect x="80" y="90" width="260" height="44" rx="22" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="195" y="118" font-family="sans-serif" font-size="16" font-weight="bold" fill="#D4AF37" text-anchor="middle">NOUVEAU LANCEMENT</text>
+
+  <text x="80" y="270" font-family="sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF">L'agent IA</text>
+  <text x="80" y="360" font-family="sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF">qui travaille</text>
+  <text x="80" y="450" font-family="sans-serif" font-size="80" font-weight="bold" fill="#D4AF37">pour toi 24/7</text>
+
+  <text x="80" y="510" font-family="sans-serif" font-size="26" fill="#9a9a9a">Emploi - Freelance - Investissement, un seul agent.</text>
+
+  <circle cx="900" cy="220" r="86" stroke="#D4AF37" stroke-width="8" fill="none" opacity="0.25"/>
+  <circle cx="900" cy="220" r="58" stroke="#D4AF37" stroke-width="6" fill="none" opacity="0.55"/>
+  <circle cx="900" cy="220" r="32" fill="#D4AF37"/>
+  <text x="900" y="232" font-family="serif" font-size="34" font-weight="bold" fill="#0A0A0A" text-anchor="middle">S</text>
+
+  <g font-family="sans-serif" font-size="16" font-weight="bold">
+    <rect x="80" y="610" width="200" height="46" rx="23" fill="#D4AF37" opacity="0.14"/>
+    <text x="180" y="639" fill="#D4AF37" text-anchor="middle">SCAN GLOBAL</text>
+
+    <rect x="298" y="610" width="240" height="46" rx="23" fill="#D4AF37" opacity="0.14"/>
+    <text x="418" y="639" fill="#D4AF37" text-anchor="middle">VERIFICATION IA</text>
+
+    <rect x="558" y="610" width="250" height="46" rx="23" fill="#D4AF37" opacity="0.14"/>
+    <text x="683" y="639" fill="#D4AF37" text-anchor="middle">AUTO-CANDIDATURE</text>
+  </g>
+
+  <line x1="80" y1="740" x2="1000" y2="740" stroke="#242424" stroke-width="1"/>
+
+  <text x="80" y="820" font-family="sans-serif" font-size="40" font-weight="bold" fill="#FFFFFF">SEARCHER</text>
+  <text x="330" y="820" font-family="sans-serif" font-size="40" font-weight="bold" fill="#D4AF37">CONNECTOR</text>
+  <text x="80" y="860" font-family="sans-serif" font-size="20" fill="#777777">searcherconnector.com</text>
+
+  <text x="80" y="990" font-family="sans-serif" font-size="18" fill="#555555">Direction creative &amp; identite - Biyo Stephane</text>
+</svg>

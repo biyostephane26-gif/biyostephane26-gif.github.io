@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#0F0F0F"/>
+  <text x="60" y="80" font-family="sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF">MINI GUIDE DE MARQUE</text>
+  <text x="60" y="112" font-family="sans-serif" font-size="18" fill="#8a8a8a">Searcher Connector - identite noir &amp; or</text>
+
+  <text x="60" y="175" font-family="sans-serif" font-size="16" font-weight="bold" fill="#D4AF37">PALETTE</text>
+  <g font-family="sans-serif" font-size="14" fill="#cfcfcf">
+    <rect x="60" y="195" width="150" height="90" rx="10" fill="#0A0A0A" stroke="#2a2a2a"/>
+    <text x="70" y="305" fill="#9a9a9a">#0A0A0A - Noir fond</text>
+
+    <rect x="230" y="195" width="150" height="90" rx="10" fill="#D4AF37"/>
+    <text x="240" y="305" fill="#9a9a9a">#D4AF37 - Or accent</text>
+
+    <rect x="400" y="195" width="150" height="90" rx="10" fill="#FFFFFF"/>
+    <text x="410" y="305" fill="#9a9a9a">#FFFFFF - Texte principal</text>
+
+    <rect x="570" y="195" width="150" height="90" rx="10" fill="#1a1a1a" stroke="#2a2a2a"/>
+    <text x="580" y="305" fill="#9a9a9a">#1A1A1A - Surface</text>
+  </g>
+
+  <text x="60" y="365" font-family="sans-serif" font-size="16" font-weight="bold" fill="#D4AF37">TYPOGRAPHIE</text>
+  <text x="60" y="425" font-family="sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">Titres en gras</text>
+  <text x="60" y="470" font-family="serif" font-size="30" fill="#D4AF37">Accents - serif</text>
+  <text x="60" y="505" font-family="sans-serif" font-size="20" fill="#cfcfcf">Corps de texte - sans-serif regulier, gris clair sur fond noir</text>
+
+  <text x="60" y="565" font-family="sans-serif" font-size="16" font-weight="bold" fill="#D4AF37">MARQUE</text>
+  <circle cx="110" cy="630" r="46" stroke="#D4AF37" stroke-width="6" fill="none" opacity="0.4"/>
+  <circle cx="110" cy="630" r="26" fill="#D4AF37"/>
+  <text x="110" y="640" font-family="serif" font-size="26" font-weight="bold" fill="#0A0A0A" text-anchor="middle">S</text>
+  <text x="180" y="620" font-family="sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">SEARCHER</text>
+  <text x="360" y="620" font-family="sans-serif" font-size="24" font-weight="bold" fill="#D4AF37">CONNECTOR</text>
+  <text x="180" y="648" font-family="sans-serif" font-size="15" fill="#777777">Icone sur fond sombre uniquement - zone de respiration = rayon du cercle</text>
+
+  <text x="60" y="725" font-family="sans-serif" font-size="14" fill="#555555">Systeme reconstitue par Biyo Stephane a partir des elements de marque existants du produit.</text>
+</svg>
